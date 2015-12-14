@@ -17,7 +17,7 @@ def vowel_or_consonant():
     "sometimes a vowel, sometimes a consonant". Otherwise your program should
     display a message indicating that the letter is a "consonant".
     """
-    vowels = ['a', 'e', 'i', 'o', 'u']
+    vowels = list("aeiou")
     letter = raw_input("Enter a letter of the alphabet, please: ")
     if letter in vowels:
         print("vowel")
